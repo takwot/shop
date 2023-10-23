@@ -1,0 +1,6 @@
+create table(
+    ID PRIMARY KEY,
+    name varchar(255),
+    description varchar(255),
+    telegramm varchar(255)
+);
