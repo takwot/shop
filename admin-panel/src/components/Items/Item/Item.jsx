@@ -48,12 +48,12 @@ const Item = ({
         variant="contained"
         onClick={() => {
           axios
-            .delete(`http://localhost:5000/api/items?id=${id}`)
+            .delete(`http://45.146.166.29:5000/api/items?id=${id}`)
             .then(res => {
               console.log(res.data);
             })
             .then(() => {
-              axios.get("http://localhost:5000/api/items").then(res => {
+              axios.get("http://45.146.166.29:5000/api/items").then(res => {
                 if (res.data.status === true) {
                   console.log(res.data);
                   setData(res.data.data);

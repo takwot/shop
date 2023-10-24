@@ -35,7 +35,7 @@ const Modal = ({ setView }) => {
             const data = new Date();
             const newData = String(data).split(" ");
             axios
-              .post("http://localhost:5000/api/items", {
+              .post("http://45.146.166.29:5000/api/items", {
                 name: name,
                 description: des,
                 telegramm: tg,

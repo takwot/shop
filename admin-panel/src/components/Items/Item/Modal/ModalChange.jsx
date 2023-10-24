@@ -35,7 +35,7 @@ const ModalChange = ({ setView, nameValue, desValue, tgValue }) => {
             const data = new Date();
             const newData = String(data).split(" ");
             axios
-              .patch("http://localhost:5000/api/items", {
+              .patch("http://45.146.166.29:5000/api/items", {
                 name: name,
                 description: des,
                 telegramm: tg,

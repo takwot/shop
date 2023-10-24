@@ -10,7 +10,7 @@ const Items = ({ value }) => {
   });
 
   useEffect(() => {
-    axios.get("http://localhost:5000/api/items").then(res => {
+    axios.get("http://45.146.166.29:5000/api/items").then(res => {
       if (res.data.status === true) {
         setData(res.data.data);
       }
