@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Playpen+Sans&display=swap");
+
+.container {
+  width: 50%;
+  border-radius: 8px;
+  font-family: "Playpen Sans", cursive;
+  border: 1px solid rgba(0, 0, 0, 0.137);
+  padding: 10px;
+}
+
+.name {
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.description {
+  color: grey;
+  font-size: 15px;
+  width: 50%;
+  -moz-hyphens: auto;
+  -webkit-hyphens: auto;
+  -ms-hyphens: auto;
+  word-break: break-all;
+}
+
+.buy_container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.date {
+  font-size: 12px;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}

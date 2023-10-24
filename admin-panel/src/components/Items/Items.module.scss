@@ -1,0 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Playpen+Sans&display=swap");
+
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-family: "Playpen Sans", cursive;
+  align-items: center;
+  padding-top: 20px;
+}

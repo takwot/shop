@@ -1,5 +1,5 @@
-create table(
-    ID PRIMARY KEY,
+create table items(
+    ID int PRIMARY KEY,
     name varchar(255),
     description varchar(255),
     telegramm varchar(255)
