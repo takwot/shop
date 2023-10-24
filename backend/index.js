@@ -13,7 +13,7 @@ app.use("/api", ItemRouter);
 app.get("/api/create-list", (req, res) => {
   client
     .query(
-      "create table items(ID SERIAL PRIMARY KEY, name varchar(255), description varchar(255),telegramm varchar(255);"
+      "create table items(ID SERIAL PRIMARY KEY, name varchar(255), description varchar(255),telegramm varchar(255));"
     )
     .then(() => {
       res.json({ message: "Success" }).statusCode(200);
